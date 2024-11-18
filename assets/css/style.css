@@ -1,0 +1,77 @@
+body {
+  margin: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h1 {
+  margin: 0;
+}
+.subtitulo {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: row;
+}
+.container-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#tareaLista {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 16px;
+  text-align: center;
+}
+
+#tareaLista h3 {
+  color: #717171;
+}
+
+#tareaLista table {
+  width: 100%;
+}
+
+.tarea-input-container {
+  margin: 16px 0;
+}
+
+.tarea-input-container input#nuevaTarea {
+  width: 300px;
+  padding: 8px 6px;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+}
+
+.tarea-input-container #btnTarea {
+  background-color: #0091ff;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+  margin-left: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.boton-borrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  font-size: 14px;
+  border-radius: 50%;
+  background-color: rgb(228, 47, 47);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

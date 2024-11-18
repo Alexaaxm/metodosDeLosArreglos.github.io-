@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <header style="border-bottom: 2px solid black">
+      <h1>Lista de tareas</h1>
+    </header>
+    <main class="container-main">
+      <section class="container-flex">
+        <div class="col">
+          <div class="container-flex tarea-input-container">
+            <input
+              id="nuevaTarea"
+              placeholder="Escriba la descripción de la tarea"
+            />
+            <button id="btnTarea">Agregar</button>
+          </div>
+        </div>
+      </section>
+      <section class="container-list">
+        <div id="tareaLista">
+          <h3>No hay tareas. Cuando añadas una tarea, se mostrará aquí</h3>
+        </div>
+      </section>
+      <div class="container-Total">
+        <p><b>Total: </b><span class="total"> 0 </span></p>
+        <p><b>Realizadas: </b><span class="realizadas"> 0 </span></p>
+      </div>
+    </main>
+
+    <script src="/assets/js/scripts.js"></script>
+  </body>
+</html>
